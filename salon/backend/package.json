@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "hotel management system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "sithara",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^6.8.3",
+
+    "nodemon": "^2.0.20",
+    "pdf-creator-node": "^2.3.5",
+    "react-simple-chatbot": "^0.6.1",
+    "semantic-ui-react": "^2.1.4",
+    "styled-components": "^4.4.1"
+  }
+}
